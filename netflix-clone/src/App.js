@@ -1,7 +1,7 @@
 import React from'react'
 import './App.css';
 import Row from './Row'
-import requests from './requests';
+import requests from './Requests';
 
 /*add two row components and customise them by adding titles of each genre */
 function App() {
