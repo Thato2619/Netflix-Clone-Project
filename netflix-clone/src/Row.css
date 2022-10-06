@@ -1,10 +1,17 @@
 /*Styles the positioing and layout of the images/posters*/
-.row_poster{
+.row_posters{
     display: flex;
     overflow-y: hidden; /*hides scroll of y axis*/
     overflow-x: scroll; /*brings out the scroll*/
     padding: 20px;
 }
+
+/*helps assists no to display the scrollbar but keeps its functionality of it */
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+
 
 /*Styles the width and size of images/posters in img tag*/
 
