@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="app">
       {/**Nav */}
+      <Nav/>
       {/** Banner*/}
+      <Banner/>
 
       <Row 
         title="NETFLIX ORIGINALS" 
