@@ -6,7 +6,7 @@ import requests from './Requests';
 /*add two row components and customise them by adding titles of each genre */
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h1>Let successfully complete this netflix clone in Jesus name</h1>
       <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} /> 
