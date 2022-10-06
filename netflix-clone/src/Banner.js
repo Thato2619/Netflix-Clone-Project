@@ -29,12 +29,14 @@ function Banner() {
             backgroundSize: "cover",
             backgroundImage: `url(
                 "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
-            )`
-            backgroundPosition: "center center" //centres the image in background
+            )`,
+            backgroundPosition: "center center" ,//centres the image in background
         }}
             <div className="banner_content">
             {/** title */}
-            <h1></h1>
+            <h1>
+                {movie?.title || movie?.name || movie?.original_name}
+            </h1>
             {/** div with 2buttons */}
             {/**description */}
             </div>
