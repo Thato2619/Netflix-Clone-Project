@@ -19,6 +19,8 @@ function Banner() {
         fetchData();
     }, []);
     console.log(movie);
+
+    //this function truncate helps make description fit in the banner 
     function truncate (str, n){
         return str?.length > n ? str.substr(0, n - 1) + "..." : str;
     }
