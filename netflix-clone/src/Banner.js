@@ -20,11 +20,14 @@ function Banner() {
     }, []);
     console.log(movie);
 
-    return (
-        <header> {/** add backgroun image*/}
+     {/** add backgroun image in header*/}
+    return ( 
+        <header className="banner"> 
+            <div className="banner_content">
             {/** title */}
             {/** div with 2buttons */}
             {/**description */}
+            </div>
         </header>
     )
 }
