@@ -9,11 +9,12 @@ function Row({ title }) {
         //if [], run code once when row loads(don't run it again)
         async function fetchData() {
             const request = await axios.get(fetchUrl);
-            console.log(request)
+            console.log(request.data.results);
+            setMovies(request.data.results);
             return request;
         }
         fetchData();
-    }, [])
+    }, [fetchUrl]);
     return(
         <div>
             {/** prop ~ title */}
