@@ -50,6 +50,7 @@ function Banner() {
             <h1 className="banner_description">{movie?.overview}</h1>
             {/** banner_description*/}
             </div>
+            
         </header>
     )
 }
