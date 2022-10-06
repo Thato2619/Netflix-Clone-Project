@@ -1,11 +1,18 @@
 import React, {useEffect, useState} from 'react'
+import axios from "./axios"
 
 function Row({ title }) {
     const[movies, setMovies] = useState([]);
 
     //A snippet of code which runs based on a specific condition/variable
     useEffect(() => {
-        //
+        //if [], run code once when row loads(don't run it again)
+        async function fetchData() {
+            const request = await axios.get(fetchUrl);
+            console.log(request)
+            return request;
+        }
+        fetchData();
     }, [])
     return(
         <div>
