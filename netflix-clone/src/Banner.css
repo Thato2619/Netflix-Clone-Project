@@ -44,3 +44,10 @@
     padding-bottom: 0.5rem;
     background-color: rgba(51, 51, 51, 0.5);
 }
+
+/** add transitions to banner_button with effect hover*/
+.banner_button:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
