@@ -24,6 +24,8 @@ function Row({ title, fetchUrl }) {
 
             <div className="row-poster">
                 {/** several row_posters */}
+
+                {movies.map()}
             </div>
 
             {/**container=> posters */}
