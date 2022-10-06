@@ -18,7 +18,7 @@ function Row({ title, fetchUrl }) {
 
     console.log(movies); 
     return(
-        <div>
+        <div className="row">
             {/** prop ~ title */}
             <h2>{title}</h2>
 
