@@ -1,6 +1,8 @@
 /*Styles the positioing and layout of the images/posters*/
 .row_poster{
     display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll; 
 }
 
 /*Styles the width and size of images/posters in img tag*/
