@@ -5,6 +5,9 @@
     height: 448px;
 }
 
+/** style banner containing contents*/
 .banner_contents{
-    
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
 }
