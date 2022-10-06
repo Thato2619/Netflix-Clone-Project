@@ -1,3 +1,7 @@
+.row{
+    margin-left: 20px;
+}
+
 /*Styles the positioing and layout of the images/posters*/
 .row_posters{
     display: flex;
