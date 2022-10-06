@@ -9,7 +9,9 @@ import requests from './Requests';
 function App() {
   return (
     <div className="app">
-      <h1>Let successfully complete this netflix clone in Jesus name</h1>
+      {/**Nav */}
+      {/** Banner*/}
+
       <Row 
         title="NETFLIX ORIGINALS" 
         fetchUrl={requests.fetchNetflixOriginals}
