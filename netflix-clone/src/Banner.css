@@ -46,7 +46,7 @@
 }
 
 /** add transitions to banner_button with effect hover*/
-.banner_button:hover{
+.banner_button:hover {
     color: black;
     background-color: #e6e6e6;
     transition: all 0.2s;
