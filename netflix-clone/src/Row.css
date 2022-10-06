@@ -29,3 +29,12 @@
     opacity: 1;
 }
 
+/*styling for larger row ~ This is for Netflix Original*/
+.row_posterLarge{
+    max-height: 250px;
+}
+
+/*styling for hover in larger row ~ This is for Netflix Original*/
+.row.row_posterLarge:hover{
+    transform: scale(1.09);
+}
