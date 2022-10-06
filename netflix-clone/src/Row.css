@@ -9,5 +9,6 @@
     object-fit: contain; /*keeps the expects ratio*/
     width: 100%;
     max-height: 100px;
+    margin-right: 10px;
     transition: transform 450ms;
 }
