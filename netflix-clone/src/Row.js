@@ -22,6 +22,10 @@ function Row({ title, fetchUrl }) {
             {/** prop ~ title */}
             <h2>{title}</h2>
 
+            <div className="row-poster">
+                {/** several row_posters */}
+            </div>
+
             {/**container=> posters */}
         </div>
     )
