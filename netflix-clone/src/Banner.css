@@ -12,14 +12,14 @@
     height: 190px;
 }
 
-{/** Style banner_title*/}
+/** Style banner_title*/
 .banner_title{
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3rem;
 }
 
-{/** Style banner_description*/}
+/** Style banner_description*/
 .banner_description{
     width:45rem;
     line-height: 1.3;
