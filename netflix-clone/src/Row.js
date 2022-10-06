@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import axios from "./axios"
 
-function Row({ title }) {
+function Row({ title, fetchUrl }) {
     const[movies, setMovies] = useState([]);
 
     //A snippet of code which runs based on a specific condition/variable
@@ -15,6 +15,8 @@ function Row({ title }) {
         }
         fetchData();
     }, [fetchUrl]);
+
+    console.log(movies); 
     return(
         <div>
             {/** prop ~ title */}
