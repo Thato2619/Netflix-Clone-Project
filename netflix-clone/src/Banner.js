@@ -8,9 +8,10 @@ function Banner() {
     //use useEffect to run code on a condition
     useEffect(() =>{
         async function fetchData() {
-            const request = await axios.get(requests.fetchTrending)
+            const request = await axios.get(requests.fetchTrending);
+            console.log(request.data.results);
         }
-        fetchData()
+        fetchData();
     }, []);
     return (
         <header> {/** add backgroun image*/}
