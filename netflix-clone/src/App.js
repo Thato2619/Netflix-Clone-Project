@@ -1,7 +1,7 @@
-import React from'react'
-import './Row.css'
+import React from'react';
+import './Row.css';
 import './App.css';
-import Row from './Row'
+import Row from './Row';
 import requests from './Requests';
 import Banner from './Banner';
 

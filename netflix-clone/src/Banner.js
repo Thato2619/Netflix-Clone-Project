@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from "./axios"
 import requests from './Requests';
-import './Banner.css'
+import './Banner.css';
 function Banner() {
     const [movie, setMovie] = useState([]);
 
@@ -15,7 +15,7 @@ function Banner() {
                 ]
             );
             return request;
-        }
+        } 
         fetchData();
     }, []);
     console.log(movie);
@@ -34,7 +34,7 @@ function Banner() {
         }}
             <div className="banner_content">
             {/** title: conditional to look for name of movies*/}
-            <h1> 
+            <h1 className="banner_title"> 
                 {movie?.title || movie?.name || movie?.original_name}
             </h1>
             <div className='banner_buttons'> 

@@ -11,3 +11,10 @@
     padding-top: 140px;
     height: 190px;
 }
+
+{/** Style banner_title*/}
+.banner_title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
