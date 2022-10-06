@@ -8,7 +8,10 @@ function App() {
   return (
     <div className="app">
       <h1>Let successfully complete this netflix clone in Jesus name</h1>
-      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} />
+      <Row 
+        title="NETFLIX ORIGINALS" 
+        fetchUrl={requests.fetchNetflixOriginals}
+        />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} /> 
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} /> 
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} /> 
