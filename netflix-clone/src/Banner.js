@@ -1,9 +1,11 @@
 import React from 'react'
 
 function Banner() {
-  return (
-    <div>Banner</div>
-  )
+    return (
+        <header>
+            
+        </header>
+    )
 }
 
 export default Banner
