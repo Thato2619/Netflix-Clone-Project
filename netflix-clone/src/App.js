@@ -4,7 +4,7 @@ import './App.css';
 import Row from './Row';
 import requests from './Requests';
 import Banner from './Banner';
-
+import Navbar from './Navbar';
 
 /*add two row components and customise them by adding titles of each genre */
 function App() {
