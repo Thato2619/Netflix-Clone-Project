@@ -37,12 +37,13 @@ function Banner() {
             <h1> 
                 {movie?.title || movie?.name || movie?.original_name}
             </h1>
-            <div className='banner_buttons'>
+            <div className='banner_buttons'> 
                 <button className="banner_buttons">Play</button>
                 <button className="banner_buttons">My List</button>
+                {/** banner_buttons x2*/}
             </div>
             <h1 className="banner_description">{movie?.overview}</h1>
-            
+            {/** banner_description*/}
             </div>
         </header>
     )
