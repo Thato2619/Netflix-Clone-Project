@@ -1,8 +1,8 @@
 /*Styles the positioing and layout of the images/posters*/
 .row_poster{
     display: flex;
-    overflow-y: hidden;
-    overflow-x: scroll; 
+    overflow-y: hidden; /*hides scroll of y axis*/
+    overflow-x: scroll; /*brings out the scroll*/
     padding: 20px;
 }
 
