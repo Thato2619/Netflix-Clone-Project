@@ -20,11 +20,21 @@ function Banner() {
     }, []);
     console.log(movie);
 
-     {/** add backgroun image in header*/}
+    {/** add backgroun image in header*/}
     return ( 
+        //begin to add background image in 'banner' container
+        //use <style></style>
         <header className="banner"> 
+        style={{ 
+            backgroundSize: "cover",
+            backgroundImage: `url(
+                "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
+            )`
+            backgroundPosition: "center center" //centres the image in background
+        }}
             <div className="banner_content">
             {/** title */}
+            <h1></h1>
             {/** div with 2buttons */}
             {/**description */}
             </div>
