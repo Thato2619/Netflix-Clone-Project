@@ -51,6 +51,7 @@ function Banner() {
             {/** banner_description*/}
             </div>
             
+            <div className="banner--fadeBottom"></div>
         </header>
     )
 }
