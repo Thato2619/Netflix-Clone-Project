@@ -1,0 +1,10 @@
+/** style banner */
+.banner{
+    color: white;
+    object-fit: contain;
+    height: 448px;
+}
+
+.banner_contents{
+    
+}
