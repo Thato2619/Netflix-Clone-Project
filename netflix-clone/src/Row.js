@@ -3,7 +3,7 @@ import axios from "./axios"
 
 //baseUrl for the lack of functionlaity 
 const baseUrl = "https://image.tmdb.org/t/p/original/";
-function Row({ title, fetchUrl }) {
+function Row({ title, fetchUrl, isLargeRow }) {
     const[movies, setMovies] = useState([]);
 
     //A snippet of code which runs based on a specific condition/variable
