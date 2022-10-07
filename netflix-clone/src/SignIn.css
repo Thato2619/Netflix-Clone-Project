@@ -1,79 +1,75 @@
 /*backgroud screen styling*/
-.signIn_screen_background{
-    position:relative;
-    height: 100%;
-    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/5b679305-b790-4639-8a60-0881064fe5e6/ZA-en-20221003-popsignuptwoweeks-perspective_alpha_website_medium.jpg") center no-repeat;
-    background-size: cover;
+.signIn_screen_background {
+  position: relative;
+  height: 100%;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/5b679305-b790-4639-8a60-0881064fe5e6/ZA-en-20221003-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
+    center no-repeat;
+  background-size: cover;
 }
 
 /*add gradient to the sign-in background*/
-.signIn_screen_gradient{
-    width:100%;
-    z-index:1;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-image:(
-        to top,
-        rgba(0, 0, 0, 0.8)
-        rgba(0, 0, 0, 0) 60%
-        rgba(0, 0, 0, 0.4) 100%
-    );
+.signIn_screen_gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: (
+    to top,
+    rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0) 60% rgba(0, 0, 0, 0.4) 100%
+  );
 }
 
 /*style background form sheet*/
-.signIn_screen_form{
-    max-width: 300px;
-    padding: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #000000BF;
-    left: 0;
-    right:0;
-} 
+.signIn_screen_form {
+  max-width: 300px;
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #000000bf;
+  left: 0;
+  right: 0;
+}
 /*style the heading of the form*/
-.signIn_screen_form > form > h1{
-    text-align: left;
-    margin-bottom: 25px;
+.signIn_screen_form > form > h1 {
+  text-align: left;
+  margin-bottom: 25px;
 }
 
 /*style and positon input of sign up sheet*/
-.signIn_screen_form > form > input{
-    outline-width:0 ;
-    height: 40px;
-    margin-bottom: 14px;
-    border-radius:5px;
-    border: none;
-    padding: 5px 15px;
+.signIn_screen_form > form > input {
+  outline-width: 0;
+  height: 40px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
 }
 
 /*style the button of the form*/
-.signIn_screen_form > form > button{
-    padding: 16px 20px;
-    font-size: 1rem;
-    color: #fff;
-    border-radius: 5px;
-    background-color: #e50914;
-    font-weight: 600;
-    border: none; 
-    cursor: pointer;
-    margin-top: 20px;
+.signIn_screen_form > form > button {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 /*style the text that says, "new to Netflix?"*/
-.signIn_screen_form > form > h4{
-    text-align: left;
-    margin-top: 30px;
+.signIn_screen_form > form > h4 {
+  text-align: left;
+  margin-top: 30px;
 }
 
 /*make the color of the text that says, "new to Netflix?" gray */
-.signIn_screen_grey{
-    color: gray;
+.signIn_screen_grey {
+  color: gray;
 }
 /*decorate the statment that says, "Sign up now" */
-.signIn_screen_link{
-    cursor: pointer;
-    text-decoration: underline;
+.signIn_screen_link {
+  cursor: pointer;
+  text-decoration: underline;
 }
-
-
-
