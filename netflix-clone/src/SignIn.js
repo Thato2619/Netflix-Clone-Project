@@ -8,13 +8,13 @@ function SignIn()  {
         <div className="signIn_screen_form">
             <form>
                 <h1>Sign In</h1>
-                <input placeholder="Email" type="email"/>
-                <input placeholder="Password" type="password"/>
-
+                <input placeholder="Email" type="email" />
+                <input placeholder="Password" type="password" />
+                <button type="submit">Sign In</button>
             </form>
         </div>
     </div>
-  )
+  ) 
 }
 
 export default SignIn
