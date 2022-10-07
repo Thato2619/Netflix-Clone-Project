@@ -59,3 +59,9 @@
     margin-top: 20px;
 }
 
+/*style the text that says, "new to Netflix?"*/
+.signIn_screen_form > form > h4{
+    text-align: left;
+    margin-top: 30px;
+}
+
