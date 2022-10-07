@@ -7,12 +7,12 @@
   background-size: cover;
 }
 /*style and position Netflix logo*/
-.screen_logo{
-    position: fixed;
-    left: 0;
-    width: 150px;
-    object-fit: contain;
-    padding-left: 20px;
+.screen_logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
 }
 /*add gradient to the sign-in background*/
 .signIn_screen_gradient {
