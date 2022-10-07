@@ -17,8 +17,8 @@ function Navbar() {
     }, []);
 
     return (
-        //this is for when users scroll to 100px then then nav-black will appear
-        <div className={`nav ${show && "nav-black"}`}>
+        //this is for when users scroll to 10px then then nav-black will appear
+        <div className={`nav ${show && "nav_black"}`}> 
             <img
             className="nav_logo"
             src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
