@@ -12,7 +12,10 @@ function SignIn()  {
                 <input placeholder="Password" type="password" />
                 <button type="submit">Sign In</button>
 
-                <h4>New to Netflix? Sign Up now</h4>
+                <h4>
+                    <span className="signIn_screen_grey">New to Netflix?</span>
+                    Sign Up now
+                </h4>
             </form>
         </div>
     </div>
