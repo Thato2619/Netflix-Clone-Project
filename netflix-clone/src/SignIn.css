@@ -43,5 +43,14 @@
 
 /*style the button of the form*/
 .signIn_screen_form > form > button{
-     
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none; 
+    cursor: pointer;
+    margin-top: 20px;
 }
+
