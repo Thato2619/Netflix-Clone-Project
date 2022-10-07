@@ -9,7 +9,10 @@ function Navbar(){
                 handleShow(true);
             } else handleShow(false);
         });
-    })
+        return() => {
+            window.removeEventListener("scroll");
+        }
+    }, [])
 }
 
 function Navbar() {
