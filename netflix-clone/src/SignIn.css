@@ -30,6 +30,11 @@
     left: 0;
     right:0;
 } 
+/*style the heading of the form*/
+.signIn_screen_form > form > h1{
+    text-align: left;
+    margin-bottom: 25px;
+}
 
 /*style and positon input of sign up sheet*/
 .signIn_screen_form > form > input{
