@@ -29,6 +29,17 @@ function Row({ title, fetchUrl, isLargeRow }) {
             autoplay:1,
         },
     };
+    //when user clicks on picture, set the trailerUrl and clear video
+    const handleclick = (movie) => {
+        if (trailerUrl) {
+            setTrailerUrl(''); //helps clear the video
+        } else{
+            movieTrailer(movie?.name || "")
+            .then((url) => {
+                const
+            })
+        }
+    }
 
     console.log(movies); 
     return(
@@ -42,6 +53,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
                 {movies.map(movie => (
                     <img 
                     key={movie.id} /*assists with uniqueness to the movies by ID*/
+                    onClick={() => handleclick(movie)}
                     className={`{row_posters} ${isLargeRow && "row_posterLarge"}`}
                     src={`${baseUrl}${
                         isLargeRow ? movie.poster_path: movie.backdrop_path
