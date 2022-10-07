@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import axios from "./axios";
 import "./Row.css";
 import Youtube from "react-youtube"
+import movieTrailer from "movie-trailer"
 //baseUrl for the lack of functionlaity 
 const baseUrl = "https://image.tmdb.org/t/p/original/";
 
@@ -38,6 +39,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
             .then((url) => {
                 //helps get only the Youtbe video ID instead of whole URL
                 const urlParams = new URLSearchParams(URL(url).search); //URLSearchParams helps get ID for longer url links
+                setTrailerUrl(urlParams.get("v"));
             })
             //catches any error that would disrupt the process
             .catch((error) => console.log(error))
