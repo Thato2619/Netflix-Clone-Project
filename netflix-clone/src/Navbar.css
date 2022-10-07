@@ -18,5 +18,7 @@
 /** style netflix avatotr*/
 .nav_avator{
     width: 30px;
+    position: fixed;
+    right:0;
     object-fit: contain;
 }
