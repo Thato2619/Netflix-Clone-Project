@@ -14,7 +14,7 @@ function SignIn()  {
 
                 <h4>
                     <span className="signIn_screen_grey">New to Netflix?</span>
-                    <span>Sign Up now</span>
+                    <span className="signIn_screen_link">Sign Up now</span>
                 </h4>
             </form>
         </div>
