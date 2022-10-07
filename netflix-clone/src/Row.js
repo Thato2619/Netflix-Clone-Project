@@ -37,7 +37,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
             movieTrailer(movie?.name || "") //movieTrailer is an npm module to find Youtuber trailer for the movie
             .then((url) => {
                 //helps get only the Youtbe video ID instead of whole URL
-                const urlParams = new URL(url).search;
+                const urlParams = new URLSearchParams(URL(url).search); //URLSearchParams helps get ID for longer url links
             })
             //catches any error that would disrupt the process
             .catch((error) => console.log(error))
