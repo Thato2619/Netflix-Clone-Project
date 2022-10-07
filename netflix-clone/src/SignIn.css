@@ -19,3 +19,14 @@
         rgba(0, 0, 0, 0.4) 100%
     );
 }
+
+/*style background form sheet*/
+.signIn_screen_form{
+    max-width: 300px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000000BF;
+    left: 0;
+    right:0;
+}   
