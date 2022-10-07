@@ -5,7 +5,7 @@ import './Banner.css';
 function Banner() {
     const [movie, setMovie] = useState([]);
 
-    //use useEffect to run code on a condition
+    //use useEffect to run code on a condition 
     useEffect(() => {
         async function fetchData(){
             const request = await axios.get(requests.fetchTrending)
