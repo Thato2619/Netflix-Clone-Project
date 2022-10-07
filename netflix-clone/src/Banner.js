@@ -25,10 +25,6 @@ function Banner() {
   function truncate(str,n){
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
-
-  {
-    /** add backgroun image in header*/
-  }
   return (
     //begin to add background image in 'banner' container
     //use <style></style>
