@@ -1,37 +1,35 @@
-import React, { useEffect } from 'react'
-import "./Navbar.css"
+import React, { useEffect, useState } from "react";
+import "./Navbar.css";
 
 //add scroll listner so that it listens to scroll
-function Navbar(){
+function Navbar() {
+    const [show, handleShow] = useState(false);
     useEffect(() => {
-        window.addEventListener("scroll" , () => {
+        window.addEventListener("scroll", () => {
             if (window.scrollY > 100) {
                 handleShow(true);
             } else handleShow(false);
         });
-        return() => {
+        //everytime useEffect() used, remove eventlistenrs to avoid many eventlusterns
+        return () => {
             window.removeEventListener("scroll");
-        }
-    }, [])
-}
+        };
+    }, []);
 
-function Navbar() {
     return (
-    <div className= "nav">
-        
-        <img 
+    <div className="nav">
+        <img
             className="nav_logo"
             src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
             alt="Netflix Logo"
         />
         <img
-            className='nav_avator'
+            className="nav_avator"
             src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
             alt="Netflix Avator"
         />
-
     </div>
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;
