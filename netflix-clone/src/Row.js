@@ -39,6 +39,8 @@ function Row({ title, fetchUrl, isLargeRow }) {
                 //helps get only the Youtbe video ID instead of whole URL
                 const urlParams = new URL(url).search;
             })
+            //catches any error that would disrupt the process
+            .catch((error) => console.log(error))
         }
     }
 
