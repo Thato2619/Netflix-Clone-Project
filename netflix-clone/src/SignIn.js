@@ -11,7 +11,8 @@ function SignIn()  {
                 <input placeholder="Email" type="email" />
                 <input placeholder="Password" type="password" />
                 <button type="submit">Sign In</button>
-                <h4></h4>
+
+                <h4>New to Netflix? Sign Up now</h4>
             </form>
         </div>
     </div>
