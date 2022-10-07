@@ -69,6 +69,11 @@
 .signIn_screen_grey{
     color: gray;
 }
+/*decorate the statment that says, "Sign up now" */
+.signIn_screen_link{
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 
 
