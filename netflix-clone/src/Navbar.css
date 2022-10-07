@@ -1,0 +1,5 @@
+/** add styyling to the Nav container, enabnle imaages to be placed at the top*/
+.nav{
+    position: fixed;
+    top:0;
+}
