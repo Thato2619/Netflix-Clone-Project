@@ -5,7 +5,7 @@ function SignIn() {
     const [App, setApp] = useState(false);
   return (
     <div className="signIn_screen_background">
-      <img className="screen_background" src="" alt="" />
+      <img className="screen_logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="" />
       <div className="signIn_screen_gradient"></div>
       <div className="signIn_screen_form">
         <form>
