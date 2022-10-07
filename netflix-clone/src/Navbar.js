@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Navbar.css"
 
+//add scroll 
+
 function Navbar() {
     return (
     <div className= "nav">
