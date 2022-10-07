@@ -5,6 +5,7 @@ function SignIn()  {
     <div className='signIn_screen_background'>
         <img className='screen_background' src="" alt="" />
         <div className="signIn_screen_gradient"></div>
+        <div className="signIn_screen_form"></div>
     </div>
   )
 }
