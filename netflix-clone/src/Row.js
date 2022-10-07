@@ -34,9 +34,10 @@ function Row({ title, fetchUrl, isLargeRow }) {
         if (trailerUrl) {
             setTrailerUrl(''); //helps clear the video
         } else{
-            movieTrailer(movie?.name || "")
+            movieTrailer(movie?.name || "") //movieTrailer is an npm module to find Youtuber trailer for the movie
             .then((url) => {
-                const
+                //helps get only the Youtbe video ID instead of whole URL
+                const urlParams = new URL(url).search;
             })
         }
     }
