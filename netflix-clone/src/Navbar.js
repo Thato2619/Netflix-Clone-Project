@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Navbar.css"
 
-//add scroll 
+//add scroll listner so that it listens to scroll
+function Navbar(){
+    useEffect(() => {
+        window.addEventListener("scroll" , () => {
+            if (window.scrollY > 100) {
+                handleShow(true);
+            } else handleShow(false);
+        });
+    })
+}
 
 function Navbar() {
     return (
