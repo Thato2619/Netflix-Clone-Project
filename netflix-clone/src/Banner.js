@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
+import "./Banner.css";
 import axios from "./axios";
 import requests from "./Requests";
-import "./Banner.css";
+
 function Banner() {
   const [movie, setMovie] = useState([]);
 
@@ -11,7 +12,7 @@ function Banner() {
       const request = await axios.get(requests.fetchTrending);
       setMovie(
         request.data.results[
-          Math.floor(Math.random() * request.data.results.length - 1)
+          Math.floor(Math.random() * request.data.results.length - 1) //random movie function
         ]
       );
       return request;
@@ -21,7 +22,7 @@ function Banner() {
   console.log(movie);
 
   //this function truncate helps make description fit in the banner
-  function truncate(str, n) {
+  function truncate(str,n){
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
 
@@ -51,6 +52,7 @@ function Banner() {
           {/** banner_buttons x2*/}
         </div>
         <h1 className="banner_description">{movie?.overview}</h1>
+        {truncate(movie?.overview, 150)}
         {/** banner_description*/}
       </div>
       <div className="banner--fadeBottom"></div>
