@@ -1,5 +1,10 @@
-/** add styyling to the Nav container, enabnle imaages to be placed at the top*/
+/** add styling to the Nav container, enabnle imaages to be placed at the top*/
 .nav{
     position: fixed;
     top:0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
 }
