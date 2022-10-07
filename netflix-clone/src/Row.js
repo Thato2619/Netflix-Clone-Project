@@ -32,13 +32,14 @@ function Row({ title, fetchUrl, isLargeRow }) {
                     <img 
                     key={movie.id} /*assists with uniqueness to the movies by ID*/
                     className={`{row_posters} ${isLargeRow && "row_posterLarge"}`}
-                    src={`${baseUrl}${isLargeRow ? movie.poster_path: movie.backdrop_path}`} 
+                    src={`${baseUrl}${
+                        isLargeRow ? movie.poster_path: movie.backdrop_path
+                    }`} 
                     alt={movie.name}
                     />
                 ))}
-            
             </div>
-
+            <Youtube videoId={trailerUrl} opts={opts} />
             {/**container=> posters */}
         </div>
     )
